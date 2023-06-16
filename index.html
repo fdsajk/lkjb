@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>공연후기</title>
+   <style>
+      /* 스타일을 추가하세요 */
+
+      body {
+         background-color: #fff;
+         font-family: Arial, sans-serif;
+      }
+
+      .container {
+         max-width: 800px;
+         margin: 0 auto;
+         padding: 20px;
+         overflow-y: scroll;
+         height: 400px;
+      }
+
+      .page-title {
+         font-size: 24px;
+         font-weight: bold;
+         margin-bottom: 20px;
+      }
+
+      .category-list {
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 20px;
+      }
+
+      .category-list a {
+         font-weight: bold;
+         color: #333;
+         text-decoration: none;
+      }
+
+      .category-list a.active {
+         color: #ff80bf;
+      }
+
+      .review-container {
+         display: flex;
+         margin-bottom: 20px;
+      }
+
+      .review-poster {
+         width: 200px;
+         margin-right: 20px;
+      }
+
+      .review-content {
+         flex-grow: 1;
+      }
+
+      .review-rating {
+         display: flex;
+         align-items: center;
+         margin-bottom: 10px;
+      }
+
+      .review-rating .star {
+         font-size: 20px;
+         color: #000;
+      }
+
+      .review-rating .filled-star {
+         color: #000;
+      }
+
+      .review-text {
+         margin-bottom: 10px;
+         color: #333;
+      }
+
+      .review-details {
+         font-size: 12px;
+         color: #777;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <h1 class="page-title">공연후기</h1>
+      <div class="category-list">
+         <a href="#">아이돌</a>
+         <a href="#">팬클럽/팬미팅</a>
+         <a href="#">발라드/R&amp;B</a>
+         <a href="#">힙합/EDM</a>
+         <a href="#">페스티벌</a>
+         <a href="#">인디/록</a>
+         <a href="#">내한</a>
+         <a href="#" class="active">그 외 장르</a>
+      </div>
+      <div class="review-container">
+         <div class="review-poster">
+            <img src="concert_poster1.jpg" alt="공연 포스터" width="200">
+         </div>
+         <div class="review-content">
+            <div class="review-rating">
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+            </div>
+            <div class="review-text">
+               후기
+            </div>
+            <div class="review-details">
+               <span class="show-name">공연 이름</span> | <span class="writer-nickname">작성자 닉네임</span> | <span class="date">작성일</span>
+            </div>
+         </div>
+      </div>
+      <div class="review-container">
+         <div class="review-poster">
+            <img src="concert_poster2.jpg" alt="공연 포스터" width="200">
+         </div>
+         <div class="review-content">
+            <div class="review-rating">
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+               <span class="star filled-star">&#9733;</span>
+            </div>
+            <div class="review-text">
+               후기
+            </div>
+            <div class="review-details">
+               <span class="show-name">공연 이름</span> | <span class="writer-nickname">작성자 닉네임</span> | <span class="date">작성일</span>
+            </div>
+         </div>
+      </div>
+      <!-- 다른 공연후기 항목들을 추가해주세요 -->
+   </div>
+</body>
+</html>
+
